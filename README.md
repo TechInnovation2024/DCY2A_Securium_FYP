@@ -26,7 +26,7 @@ Make sure you have :
 Enter in command prompt and type:
 
 ```
-git clone https://github.com/Tanveer-7/Securium
+git clone https://github.com/TechInnovation2024/DCY2A_Securium_FYP.git
 ```
 
 Then after cloning in the same place type:
