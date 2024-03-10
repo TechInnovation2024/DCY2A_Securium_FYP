@@ -32,7 +32,7 @@ git clone https://github.com/Tanveer-7/Securium
 Then after cloning in the same place type:
 
 ```
-cd Securium
+cd DCY2A_Securium_FYP 
 ```
 
 You will type this to install all packages: 
