@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    background-color: #0a0939;
+    color: #eee;
+    padding: 3rem;
+    height: 70px;
+}
+
+.bottom {
+    text-align: center;
+    padding-left: 4rem;
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    .footer {
+        padding: 2rem; /* Reduce padding for smaller screens */
+        height: auto; /* Allow the height to adjust based on content */
+    }
+
+    .bottom {
+        padding-left: 0; /* Remove left padding for smaller screens */
+    }
+}
+
+

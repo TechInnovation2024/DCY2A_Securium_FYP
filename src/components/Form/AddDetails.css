@@ -1,0 +1,100 @@
+/* Updated CSS for the Add Details form */
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.single-input {
+  /* Adjust the width to create a 1x4 layout */
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  display: block;
+  width: 100%; /* Adjust width for the 1x4 layout */
+  height: 40px;
+  margin-top: 1em;
+  font-family: 'Merriweather', sans-serif;
+  box-shadow: 0 1px 1px rgba(17, 17, 17, 0.1);
+  resize: none;
+  background-color: #ffffff;
+  color: #000;
+}
+
+input:focus {
+  box-shadow: 0 0px 5px rgb(43, 41, 41) !important;
+}
+
+/* Submit button styles */
+#input-submit {
+  color: #fff; /* Text color */
+  background: #007BFF; /* Background color - You can change this color to match your UI/UX */
+  cursor: pointer;
+  width: 120px; /* Default width for medium and larger screens */
+  margin: 20px auto; /* Center horizontally by setting left and right margins to auto */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Default padding for medium and larger screens */
+  border-radius: 8px; /* Rounded corners */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Button hover styles */
+#input-submit:hover {
+  background: #0056b3; /* Background color on hover - Adjust as needed */
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+textarea {
+  height: 126px;
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* Additional styling for labels */
+label {
+  display: block;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+  text-align: start;
+  padding-bottom: 1px;
+  padding-top: 5px;
+  padding-left: 3px; /* Corrected the property name to lowercase */
+}
+
+/* Adjust font size and input heights for smaller screens */
+@media (max-width: 480px) {
+  label {
+    font-size: 14px;
+  }
+
+  input,
+  textarea {
+    font-size: 16px;
+    height: 30px;
+    margin-top: 0.5em;
+  }
+
+  /* Responsive button styles for smaller screens */
+  #input-submit {
+    width: 60%;
+    height: 40px; /* Full width for smaller screens */
+  }
+}

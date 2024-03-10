@@ -1,0 +1,93 @@
+*
+  
+
+  .sidebar {
+    background: #1F4957;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+    overflow: hidden; /* Hide any content that overflows */
+    position: fixed; /* Keep the sidebar fixed */
+    z-index: 2;
+    
+  }
+  
+  .top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+  }
+  
+  .logo {
+    font-size: 30px;
+  }
+  
+  .bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  
+  .link {
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  
+  .link:hover {
+    background: rgb(0, 0, 0);
+    color: #011425;
+    transition: all 0.5s;
+  }
+  
+  .active {
+    background:#8cacc5;
+    color: #011425;
+  }
+  
+  .icon,
+  .link_text {
+    font-size: 20px;
+  }
+  
+  .disconnect-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 360px; /* Adjust this value to control the button's vertical position */
+  }
+  
+  .disconnect-button {
+    background-color: #d01f1f; /* Change to your desired button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .disconnect-button:hover {
+    background-color: rgb(255, 12, 12); /* Change to your desired button color on hover */
+  }
+  
+  
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 280px) {
+    .container {
+      flex-direction: column;
+      
+    }
+  
+    .sidebar {
+      width: 100vh;
+      height: auto;
+      
+     
+    }
+  }

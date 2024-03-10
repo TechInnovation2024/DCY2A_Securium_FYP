@@ -1,0 +1,60 @@
+/* Details.css */
+
+.details-box {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding-top: 20px;
+  width: 310px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.password-actions > svg {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+.bg-blue-500 {
+  background-color: #007bff;
+}
+
+.bg-blue-500:hover {
+  background-color: #0056b3;
+}
+
+.bg-gray-500 {
+  background-color: #6c757d;
+}
+
+.bg-gray-500:hover {
+  background-color: #545b62;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+  .details-box {
+    width: 100%;
+  }
+}

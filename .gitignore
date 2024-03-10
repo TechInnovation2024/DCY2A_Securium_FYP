@@ -1,0 +1,48 @@
+# Vite.js
+node_modules/
+/dist/
+/.cache/
+
+# Hardhat
+artifacts/
+.cache/
+coverage/
+local-artifacts/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+
+# Miscellaneous
+.DS_Store
+.env
+
+
+# Logs and debugging data
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+/build/
+/out/
+
+# Tests
+test-results/
+
+# Editor directories
+.svelte
+.idea
+
+# Compiled binary addons (node-gyp)
+/build/Release
+
+# TypeScript
+*.tsbuildinfo

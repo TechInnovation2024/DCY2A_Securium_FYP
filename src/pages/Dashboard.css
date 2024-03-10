@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #ffffff;
+  
+}
+.container{
+  display: flex;
+  
+}
+
+/* Main Section */
+.main{
+  position: relative;
+  padding-top: 7px;
+  padding-left: 20px;
+  width: 100%;
+  
+}
+.main-top{
+  display: flex;
+  width: 100%;
+  color :#000;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+
+.main-skills{
+  padding-top: 10px;
+  display: flex;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  
+}
+
+/* Courses */
+.main-course{
+  margin-top:20px ;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  
+}
+
+/* Updated CSS for the course-box element */
+.course-box {
+  height: 480px;
+  width: 280px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  color: #000;
+  font-size: 15px;
+  margin-bottom: 50px;
+  margin-left: 20px; 
+ 
+}
+
+
+/* CSS for the Password Generator component */
+.analytics-box {
+  height: 480px;
+  width: 280px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  color: #000;
+  margin-bottom: 50px;
+  font-size: 15px; /* Add margin to separate it from the Add Details component */
+ 
+}
+
+
+
+/* CSS for the Password Generator component */
+.password-course-box {
+  height: 340px;
+  width: 280px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  color: #000;
+  font-size: 15px;
+  margin-bottom: 50px;
+  margin-left: 20px; 
+/* Add margin to separate it from the Add Details component */
+
+}
+
+/* Media query for screens smaller than 768px (laptops and tablets) */
+@media (max-width: 768px) {
+  .password-course-box {
+    height: 480px; /* Set the width for laptops and tablets */
+    margin-bottom: 20px; /* Remove the margin on mobile devices */
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Updated CSS for the main-course container to stack components vertically */
+  .main-course{
+    margin-top:20px ;
+    text-transform: capitalize;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .password-course-box
+  {
+    width: 100%;
+    height: 180px;
+    margin-left: 0;
+   
+    margin-bottom: 20px; /* Add margin to separate components */
+  }
+  /* Updated CSS for the course-box and analytics-box to adjust width for tablet devices */
+  .course-box,
+  .analytics-box {
+    width: 100%;
+    margin-left: 0;
+   
+    margin-bottom: 20px; /* Add margin to separate components */
+  }
+}
+
+/* Media query for screens smaller than 480px (mobile) */
+@media (max-width: 480px) {
+  .password-course-box {
+    height: 420px; /* Set the width for mobile devices */
+    width: 280px;
+    margin-bottom: 20px; 
+    margin-left: 0px; /* Remove the margin on mobile devices */
+  }
+
+  .main-course{
+    margin-top:20px ;
+    text-transform: capitalize;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  .analytics-box {
+    height: 480px;
+    width: 280px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    color: #000;
+    margin-bottom: 50px;
+    font-size: 15px;
+     /* Add margin to separate it from the Add Details component */
+   
+  }
+
+
+  .course-box {
+    height: 480px;
+    width: 280px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-left: 0px; 
+   
+  }
+
+}
+
+
+.course{
+  font-size:14px ;
+  padding-top: 16px;
+}
+
+.main-skills .card{
+  width: 450px;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
