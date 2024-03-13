@@ -14,7 +14,7 @@ const Demo = () => {
                    
                 </div>
                 <div className='col-2'>
-                    <iframe width='570' height='320' src='https://www.youtube.com/embed/IDJD65SNFuQ?si=FYrhVGt6OyEAcEPo' title='Youtube video player' allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                    <iframe width='570' height='320' src='https://www.youtube.com/embed/PMjtYtG60Jw?si=kQicCkfobMh3gIyO&amp;control=0' title='Youtube video player' allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
 
                 </div>
             </div>
