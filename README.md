@@ -1,14 +1,15 @@
-# Getting Started with Securium Dapp
+# Getting Started with Securium 
 Technology Stack used: 
-- Vite JS: Used for fast and efficient development of the Securium Dapp.
-- Tailwind CSS: Employed for styling and UI design in the Securium Dapp.
-- Solidity: Utilized to write smart contracts for the Securium Dapp's backend logic.
+- Vite JS: Used for fast and efficient development of the Securium.
+- Tailwind CSS: Employed for styling and UI design in the Securium.
+- Solidity: Utilized to write smart contracts for the Securium 's backend logic.
 - Axios: Utilized for get and post API calls within the Frontend to communicate with the AI
-- Ethers.js: Integrated for interaction with the Ethereum blockchain in the Securium Dapp.
-- Hardhat: Deployed as the development environment for testing and deploying smart contracts in the Securium Dapp.
-- Alchemy: Chosen as the blockchain infrastructure provider for seamless integration with the Securium Dapp.
-- CryptoJS: Integrated for AES encryption to ensure secure storage of sensitive data in the Securium Dapp.
-- Netlify: Utilized as the hosting platform for deploying the Securium Dapp and making it accessible online.
+- Ethers.js: Integrated for interaction with the Ethereum blockchain in the Securium.
+- Hardhat: Deployed as the development environment for testing and deploying smart contracts in the Securium.
+- Alchemy: Chosen as the blockchain infrastructure provider for seamless integration with the Securium.
+- CryptoJS: Integrated for AES encryption to ensure secure storage of sensitive data in the Securium.
+- Netlify: Utilized as the hosting platform for deploying the Securium and making it accessible online.
+- PaLM2 API: Utilized for advanced natural language processing capabilities in the Securiums's AI Chat Assistant Section.
 
 
 ### `For Starting the project`
@@ -25,13 +26,13 @@ Make sure you have :
 Enter in command prompt and type:
 
 ```
-git clone https://github.com/Tanveer-7/Securium
+git clone https://github.com/TechInnovation2024/DCY2A_Securium_FYP.git
 ```
 
 Then after cloning in the same place type:
 
 ```
-cd Securium
+cd DCY2A_Securium_FYP 
 ```
 
 You will type this to install all packages: 
